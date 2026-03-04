@@ -19,6 +19,7 @@ This project evaluates how TYK2 perturbation alters:
 
 ## Workflow Overview
 ![Workflow](./Project2_report_files/figures-png/workflow.png)
+
 FASTQC → STAR Alignment → VERSE Quantification → DESeq2 → Enrichment Analysis.  
 The pipeline was implemented in Nextflow and executed on HPC.
 
